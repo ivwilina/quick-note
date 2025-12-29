@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js"></script>
+    <title>Quick Note</title>
+  </head>
+  <body>
+    <div class="top">
+      <div class="container-fluid">
+        <h1 class="app-title">quick note</h1>
+        <button type="button" id="new-note-btn">new note</button>
+      </div>
+    </div>
+    <div class="main">
+      <div class="container-fluid">
+        <div id="notes-container">
+          <!-- ? Script: Get and display notes -->
+          <script>
+            displayNotes();
+          </script>
+          <!-- ? -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+
+  {
+  id: string 
+  tasks: [
+    {
+      id: string
+      content: string
+      status: boolean
+    }
+  ]}
+
+-->
