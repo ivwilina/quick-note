@@ -21,3 +21,51 @@ function displayNotes() {
     });
   }
 }
+
+/**
+ * 
+ * @param {*} params 
+ */
+function createNote(params) {
+  
+}
+
+/**
+ * 
+ * @param {*} params 
+ */
+function deleteNote(params) {
+  
+}
+
+/**
+ * 
+ * @param {*} params 
+ */
+function addTask(params) {
+  
+}
+
+/**
+ * 
+ * @param {*} params 
+ */
+function changeTaskStatus(params) {
+  
+}
+
+/**
+ * 
+ * @param {*} params 
+ */
+function deleteTask(params) {
+  
+}
+
+/**
+ * 
+ * @param {*} params 
+ */
+function modifyTask(params) {
+  
+}
